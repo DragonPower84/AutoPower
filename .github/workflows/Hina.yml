@@ -29,7 +29,7 @@ jobs:
        - name: cloning repo
          continue-on-error: true
          run: |
-           git clone -b main https://DragonPower84:${{ secrets.GH_TOKEN }}@github.com/DragonPower84/kai_enco.git 
+           git clone -b main https://DragonPower84:${{ secrets.GH_TOKEN }}@github.com/DragonPower84/kai_enco 
        - name: Running Hina Bot
          timeout-minutes: 300
          continue-on-error: true
